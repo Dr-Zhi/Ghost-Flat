@@ -13,10 +13,10 @@ h1 {
 }
 
 h1 {
-	font-size: 200%;
+	font-size: 160%;
 }
 h2 {
-	font-size: 150%;
+	font-size: 130%;
 }
 h3 {
 	font-size: 110%;
@@ -25,13 +25,13 @@ h3 {
 	font-size: 100%;
 }
 h4 {
-	font-size: 99%;
+	font-size: 98%;
 }
 h5 {
-	font-size: 96%;
+	font-size: 92%;
 }
 h6 {
-	font-size: 92%;
+	font-size: 90%;
 }
 
 header>h1 {
@@ -92,18 +92,31 @@ footer {
     font-weight: bold;
     color: white;
     text-shadow: 0 0 2px #4B77BE;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .container-abitabove {
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 .blog-logo {
     height: 75px;
     border-radius: 50%;
     box-shadow: 0 0 0 1px #666, 0 0 0 2px rgba(0,0,0,.2);
+}
+
+blockquote {
+    padding: 0px 8px;
+    margin: 0 0 10px;
+    font-size: 92%;
+    border-left: 6px solid #ccd1d9;
+}
+
+pre {
+    font-size: 85%;
+    line-height: 1.25;
+    color: #0c7712;
 }
 
 .no-cover {
