@@ -29,9 +29,12 @@
                                 &nbsp;
                             {{/foreach}}
                         </h4>
-                        <p>
-                            {{excerpt characters="200"}}&hellip;
-                        </p>
+                        <article class="{{post_class}}">
+                        <section class="posts">
+                        {{content}}
+                        <hr />
+                        </section>
+                        </article>
                     </div>
                 </div>
             </dd>
